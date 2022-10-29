@@ -4,7 +4,7 @@ Create a portfolio on responsive website with flexbox, media queries, and CSS va
 You can be visiting the Website below :
 https://ian29012.github.io/IanCheng_Portfolio/
 
-![alt text](/images/01.png)
+![alt text](/assets/images/01.png)
 
 ## Acceptance Criteria
 
