@@ -249,3 +249,17 @@ margin: 20px;
 .content_text {
   border-bottom: 3px solid;
 }
+
+@media only screen and (max-width: 768px) {
+
+  .page-wrapper {
+    display: grid;
+    min-height: 900px;
+    margin: auto;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "about_content"
+    "work_content"
+    "contact_content" ;
+
+}
