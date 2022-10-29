@@ -68,9 +68,6 @@ header {
   font-size: 20px;
 }
 
-.hero-banner {
-
-}
 
 .hero-banner {
   background-image: url(/images/02-hero-bg.jpg);
@@ -101,4 +98,154 @@ header {
 
 .page-section {
   font-size: 36px;
+}
+
+.page-wrapper {
+  display: grid;
+  min-height: 900px;
+  margin: 50px 0px;
+  grid-template-columns: 25% 75%;
+  grid-template-areas: 
+  "about about_content"
+  "work work_content"
+  "contact contact_content" ;
+}
+
+#about {
+  grid-area: about;
+}
+
+#about_content {
+  grid-area: about_content;
+}
+
+#work {
+  grid-area: work;
+}
+
+#work_content {
+  grid-area: work_content;
+}
+
+#contact {
+  grid-area: contact;
+}
+
+#contact_content {
+  grid-area: contact_content;
+}
+
+.page-section {
+border-right: 4px solid var(--Second-color);
+margin: 20px;
+}
+
+.page-section h2 {
+  float: right;
+  margin-right: 15px;
+  margin-left: 100px;
+  text-align:right;
+  width: auto;
+  color: var(--Second-color);
+}
+
+.content_about {
+  float: left;
+  width: 90%;
+  margin: 20px 15px;
+  color: var(--Second-color);
+
+}
+
+#work_content {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 
+  "surf surf"
+  "surf surf"
+  "led calculator"
+  "pastel run";
+}
+
+#surf {
+  grid-area: surf;
+  background-image: url(/images/02-portfolio-1.jpg);
+}
+
+#led {
+  grid-area: led;
+  background: url(/images/02-portfolio-1.jpg);
+}
+
+#calculator {
+  grid-area: calculator;
+  background: url(/images/02-portfolio-2.jpg);
+}
+
+#pastel {
+  grid-area: pastel;
+  background: url(/images/02-portfolio-3.jpg);
+}
+
+#run {
+  grid-area: run;
+  background-image: url(/images/02-portfolio-4.jpg);
+}
+
+.workgridarea {
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  position: relative;
+  align-content: end;
+  border: 5px solid var(--First-color);
+
+}
+
+.workgridarea .subheading {
+  width: auto;
+  height: auto;
+  padding: 0px 20px;
+  text-align: left;
+  position: absolute;
+  bottom: 20px;
+  background: var(--First-color);
+  z-index: 100;
+}
+
+.workgridarea .subheading h5 {
+  font-size: 19px;
+  color: var(--Second-color);
+}
+
+.workgridarea .subheading h6 {
+  font-weight: normal;
+  font-family: 'Monospace', 'Times New Roman', Times, serif;
+  color: rgb(14, 63, 82);
+}
+
+.content_contact {
+  float: left;
+  width: 90%;
+  margin: 50px 15px;
+  color: var(--First-color);
+
+}
+
+.content_contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--Second-color);
+  font-size: 40px;
+}
+
+.content_text {
+  border-bottom: 3px solid;
 }
