@@ -247,29 +247,59 @@ margin: 20px;
   border-bottom: 3px solid;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 786px) {
 
   * {
    width: 100%;
    height: auto;
    margin: auto;
   }
+  
+  .header_nav {
+    float: none;
+   }
 
+  .nav_text {
+    margin: 13px 13px;
+    width: 20%;
+    display: inline-flex;
+    justify-content: space-around;
+    border-bottom: 2px solid;
+    z-index: 3;
+  }
+
+  .header_nav a {
+    font-size: 16px;
+  }
+
+  .hero-banner {
+    height: 300px;
+  }
+
+  .page-section {
+    border-right: 0;
+    border-bottom: 4px solid var(--Second-color);
+    margin: 25px auto;
+    width: 70%;
+    }
+    
   .page-section h2 {
-    font-size: 12px;
-    margin: 0;
-    padding: 0;
+    float: none;
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
   }
 
   .page-wrapper {
-    display: grid;
-    min-height: 900px;
     margin: 0px 0px;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 100%;
     grid-template-areas: 
-    "about about_content"
-    "work work_content"
-    "contact contact_content" ;
+    "about"
+    "about_content"
+    "work"
+    "work_content"
+    "contact"
+    "contact_content" ;
   }
     .content_about {
       float: left;
@@ -293,9 +323,14 @@ margin: 20px;
     
     .content_contact {
       width: 80%;
-      margin: 50px;
+      margin: 20px auto;
       align-items: center;
       color: var(--Second-color);
-      font-size: 10px;
+      font-size: 30px;
     }  
+
+    .content_text {
+      border-bottom: 2px solid;
+      margin: 2%;
+    }
 }
