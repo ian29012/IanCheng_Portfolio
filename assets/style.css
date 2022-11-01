@@ -258,9 +258,21 @@ margin: 20px;
   .header_nav {
     float: none;
    }
+  
+   .name_board {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    border-radius: 0%;
+  }
+
+  .name {
+    color: var(--Second-color);
+    justify-content: center;
+  }
 
   .nav_text {
-    margin: 13px 13px;
+    margin: 10px 2%;
     width: 20%;
     display: inline-flex;
     justify-content: space-around;
@@ -276,6 +288,11 @@ margin: 20px;
     height: 300px;
   }
 
+  .hero-banner .text_background {
+    right: 0%;
+    left: 0%;
+  }
+
   .page-section {
     border-right: 0;
     border-bottom: 4px solid var(--Second-color);
@@ -285,9 +302,10 @@ margin: 20px;
     
   .page-section h2 {
     float: none;
-    text-align: center;
-    width: 50%;
-    font-size: 30px;
+    text-align: left;
+    margin: auto;
+    width: 100%;
+    font-size: 35px;
   }
 
   .page-wrapper {
@@ -312,25 +330,28 @@ margin: 20px;
       width: 80%;
       margin: 50px;
       display: grid;
-      grid-template-rows: 200px 200px 200px 200px;
-      grid-template-columns: 50% 50%;
+      grid-template-rows: 150px 150px 150px 150px 150px;
+      grid-template-columns: 100%;
       grid-template-areas: 
-      "surf surf"
-      "surf surf"
-      "led calculator"
-      "pastel run";
+      "surf"
+      "led"
+      "calculator"
+      "pastel"
+      "run";
     }  
     
     .content_contact {
-      width: 80%;
-      margin: 20px auto;
-      align-items: center;
+      display: inline-block;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
       color: var(--Second-color);
-      font-size: 30px;
-    }  
+      font-size: 32px;
+    }
 
     .content_text {
-      border-bottom: 2px solid;
-      margin: 2%;
+      border-bottom: 2px solid ;
+      width: 40%;
+      margin: 2% 15%;
+      
     }
 }
