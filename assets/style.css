@@ -237,7 +237,7 @@ margin: 20px;
 }
 
 #run:hover {
-  filter: brightness(99%);
+  filter: brightness(100%);
   -webkit-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
