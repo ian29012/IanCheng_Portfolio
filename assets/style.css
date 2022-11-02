@@ -218,27 +218,27 @@ margin: 20px;
 
 #surf:hover {
   filter: brightness(100%);
-  -webkit-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #led:hover {
   filter: brightness(100%);
-  -webkit-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #calculator:hover {
   filter: brightness(100%);
-  -webkit-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #pastel:hover {
   filter: brightness(100%);
-  -webkit-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #run:hover {
   filter: brightness(100%);
-  -webkit-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .workgridarea .subheading {
