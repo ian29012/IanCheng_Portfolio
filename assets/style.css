@@ -173,30 +173,35 @@ margin: 20px;
   grid-area: surf;
   background-image: url(./images/02-portfolio-1.jpg);
   background-size: auto;
+  filter: brightness(70%);
 }
 
 #led {
   grid-area: led;
   background: url(./images/02-portfolio-1.jpg);
   background-size: 500px;
+  filter: brightness(70%);
 }
 
 #calculator {
   grid-area: calculator;
   background: url(./images/02-portfolio-2.jpg);
   background-size: 400px;
+  filter: brightness(70%);
 }
 
 #pastel {
   grid-area: pastel;
   background: url(./images/02-portfolio-3.jpg);
   background-size: 300px;
+  filter: brightness(70%);
 }
 
 #run {
   grid-area: run;
   background-image: url(./images/02-portfolio-4.jpg);
   background-size: 500px;
+  filter: brightness(70%);
 }
 
 .workgridarea {
@@ -204,12 +209,36 @@ margin: 20px;
   background-size: auto;
   background-repeat: no-repeat;
   margin: 5px;
-  cursor: pointer;
   display: grid;
   position: relative;
   align-content: end;
   border: 5px solid var(--First-color);
 
+}
+
+#surf:hover {
+  filter: brightness(100%);
+  -webkit-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#led:hover {
+  filter: brightness(100%);
+  -webkit-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#calculator:hover {
+  filter: brightness(100%);
+  -webkit-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#pastel:hover {
+  filter: brightness(100%);
+  -webkit-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#run:hover {
+  filter: brightness(100%);
+  -webkit-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .workgridarea .subheading {
